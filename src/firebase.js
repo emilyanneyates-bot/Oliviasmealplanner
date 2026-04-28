@@ -2,13 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA2NUOlf4LavoME6BMvoj8RptjMwfo7zfk",
-  authDomain: "meal-planner-app-39b10.firebaseapp.com",
-  projectId: "meal-planner-app-39b10",
-  storageBucket: "meal-planner-app-39b10.firebasestorage.app",
-  messagingSenderId: "551951550436",
-  appId: "1:551951550436:web:b265185767c6de05a0a9f1",
-  measurementId: "G-SHHTD2YSB3"
+  apiKey: "AIzaSyBjQDofz606fFj1IEDOTAmoOy7Ms_Bp6Ik",
+  authDomain: "olivias-meal-planner.firebaseapp.com",
+  projectId: "olivias-meal-planner",
+  storageBucket: "olivias-meal-planner.firebasestorage.app",
+  messagingSenderId: "176483967098",
+  appId: "1:176483967098:web:076371cc7ac794914cdbc3"
 };
 
 const app = initializeApp(firebaseConfig);
